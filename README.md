@@ -9,9 +9,8 @@ Welcome To [BrawlBio](https://bs.is-a.dev/) API Docs.
 
 <table>
   <tr>
-   Request / Seconds
     <td align="center" style="padding=5;width=50%;">
-20
+   Request / Seconds : 20
    </td>
   </tr>
     </table>
