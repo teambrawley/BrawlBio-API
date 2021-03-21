@@ -66,26 +66,31 @@ nav a:hover .code {
 <script type="application/ld+json">
 {"@type":"WebSite","headline":"BrawlBio-API","url":"https://bs.is-a.dev/docs/","name":"BrawlBio-API","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
- <nav id="navbar" class="nav">
+<nav id="navbar" class="nav">
   <ul>
     <li>
-      <a style="color: white;text-decoration: none;" href="/">
+      <a style="color:white; text-decoration:none" href="/">
         <span class="code">&lt;</span>
         Home
         <span class="code">&#47;&gt;</span>
       </a>
     </li>
-  
+    <li>
+
+      <a style="color:white; text-decoration:none" id="auth" href="/dashboard">
+      
+      </a>
+
+    </li>
         <li>
-      <a style="color: white;text-decoration: none;"  href="/api">
+      <a style="color:white; text-decoration:none" href="/api">
         <span class="code">&lt;</span>
         API
         <span class="code">&#47;&gt;</span>
       </a>
     </li>
-    
     <li>
-      <a style="color: white;text-decoration: none;"  target="_blank" rel="noreferrer" href="https://discord.gg/Ca4yEvTsXB">
+      <a style="color:white; text-decoration:none" target="_blank" rel="noreferrer" href="https://discord.gg/Ca4yEvTsXB">
         <span class="code">&lt;</span>
         Help
         <span class="code">&#47;&gt;</span>
@@ -184,6 +189,50 @@ API-Key   </td>
     </div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
     <script>anchors.add();</script>
-    
+    <script>
+function checkCookie() {
+    function getCookie(cname) {
+  var name = cname + "=";
+  var decodedCookie = decodeURIComponent(document.cookie);
+  var ca = decodedCookie.split(';');
+  for(var i = 0; i < ca.length; i++) {
+    var c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  return "";
+}
+  var name = getCookie("auth");
+  if (name != "") {
+  document.getElementById("auth").innerHTML = `  <span class="code">&lt;</span>
+        ${name}<span class="code">&#47;&gt;</span>`
+       
+  }else {
+     document.getElementById("auth").innerHTML = `<span class="code">&lt;</span>Login<span class="code">&#47;&gt;</span>`
+
+  }
+}
+           
+           checkCookie();
+            function getCookie(cname) {
+  var name = cname + "=";
+  var decodedCookie = decodeURIComponent(document.cookie);
+  var ca = decodedCookie.split(';');
+  for(var i = 0; i < ca.length; i++) {
+    var c = ca[i];
+    while (c.charAt(0) == ' ') {
+      c = c.substring(1);
+    }
+    if (c.indexOf(name) == 0) {
+      return c.substring(name.length, c.length);
+    }
+  }
+  return "";
+}
+       </script>
   </body>
 </html>
