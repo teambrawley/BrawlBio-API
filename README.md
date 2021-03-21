@@ -72,7 +72,9 @@ API-Key   </td>
 
 ### Response Data
 
-```{"_id":"603a4a435505ca115d1615e3","tag":"82PGQVJ2L","slug":"joe","userid":"Joe Lee | イサム(469091175517782018)"}```
+```
+{"_id":"603a4a435505ca115d1615e3","tag":"82PGQVJ2L","slug":"joe","userid":"Joe Lee | イサム(469091175517782018)"}
+```
 
 
  - [id](#) - Object ID
