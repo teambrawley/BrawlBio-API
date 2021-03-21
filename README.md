@@ -34,30 +34,10 @@ API-Key   </td>
 
 ### Response Data
 
-```{"_id":"603a4a435505ca115d1615e3","url":"82PGQVJ2L","slug":"joe","userid":"Joe Lee | イサム(469091175517782018)"}```
+```{"_id":"603a4a435505ca115d1615e3","tag":"82PGQVJ2L","slug":"joe","userid":"Joe Lee | イサム(469091175517782018)"}```
 
- <table>
-  <tr>
-      <td align="center" style="padding=5;width=50%;">
-tag  </td>
-    <td align="center" style="padding=5;width=50%;">
-    Saved Tag
-   </td>
-  </tr>
-    </table> 
-    
- <table>
-  <tr>
-      <td align="center" style="padding=5;width=50%;">
-Slug   </td>
-    <td align="center" style="padding=5;width=50%;">
-String   </td>
-  </tr>
-    </table>
-    <table>
-  <tr>
-      <td align="center" style="padding=5;width=50%;">
-userid  </td>
-    <td align="center" style="padding=5;width=50%;">String   </td>
-  </tr>
-    </table>
+
+ - [id](#) - Object ID
+ - [tag](#) - Saved Tag
+ - [slug](#) - Saved Slug
+ - [userid](#) - UserInfo
