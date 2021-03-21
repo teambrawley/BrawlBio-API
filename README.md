@@ -15,7 +15,27 @@
 
 Welcome To [BrawlBio](https://bs.is-a.dev/) API Docs.
 
+### Directories
 
+<table>
+  <tr>
+      <td align="center" style="padding=5;width=50%;">
+     <a href="#API-Endpoints">API Endpoints</a>
+   </td>
+    <td align="center" style="padding=5;width=50%;">
+     <a href="#Rate-Limits">Rate Limits</a>
+   </td>
+     <td align="center" style="padding=5;width=50%;">
+     <a href="#Authorization">Authorization</a>
+   </td>
+      <td align="center" style="padding=5;width=50%;">
+     <a href="#Response Data">Response Data</a>
+   </td>
+       <td align="center" style="padding=5;width=50%;">
+     <a href="#libraries">Libraries</a>
+   </td>
+  </tr>
+    </table>
 
 
 ### API Endpoints 
