@@ -64,3 +64,6 @@ API-Key   </td>
 
 - [`brawlbio.js`](https://npmjs.com/brawlbio.js) - Interact With BrawlBio Easily 
 
+### Community / Support 
+
+ - Join Our [Discord Server](https://discord.com/invite/Ca4yEvTsXB) To Get Help 
