@@ -1,5 +1,20 @@
 Welcome To [BrawlBio](https://bs.is-a.dev/) API Docs.
 
+<table>
+  <tr>
+      <td align="center" style="padding=5;width=50%;">
+     <a href="https://bs.is-a.dev/">Home</a>
+   </td>
+    <td align="center" style="padding=5;width=50%;">
+     <a href="https://bs.is-a.dev/api">API</a>
+   </td>
+     <td align="center" style="padding=5;width=50%;">
+     <a href="https://discord.com/invite/Ca4yEvTsXB" target="_blank">API</a>
+   </td>
+  </tr>
+    </table>
+
+
 ### API Endpoints 
 
  - [`/api`](https://bs.is-a.dev/api/[Query])  - Find Users By Slug
