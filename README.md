@@ -1,5 +1,3 @@
-Welcome To [BrawlBio](https://bs.is-a.dev/) API Docs.
-
 <table>
   <tr>
       <td align="center" style="padding=5;width=50%;">
@@ -13,6 +11,11 @@ Welcome To [BrawlBio](https://bs.is-a.dev/) API Docs.
    </td>
   </tr>
     </table>
+
+
+Welcome To [BrawlBio](https://bs.is-a.dev/) API Docs.
+
+
 
 
 ### API Endpoints 
@@ -56,3 +59,8 @@ API-Key   </td>
  - [tag](#) - Saved Tag
  - [slug](#) - Saved Slug
  - [userid](#) - UserInfo
+
+### Libraries
+
+- [`brawlbio.js`](https://npmjs.com/brawlbio.js) - Interact With BrawlBio Easily 
+
