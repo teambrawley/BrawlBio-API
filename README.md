@@ -9,3 +9,8 @@ Welcome To [BrawlBio](https://bs.is-a.dev/) API Docs.
 
 Request/Seconds | `20` |
 ---------------- | ----- |
+
+### Authorization
+
+| API-Key | [`bs.is-a.dev/api/?api-key=****`](https://bs.is-a.dev/api/) |
+| ------- | ------------ |
