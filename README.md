@@ -19,5 +19,15 @@ Welcome To [BrawlBio](https://bs.is-a.dev/) API Docs.
     
 ### Authorization
 
-| API-Key | [`bs.is-a.dev/api/?api-key=****`](https://bs.is-a.dev/api/) |
-| ------- | ------------ |
+
+
+<table>
+  <tr>
+      <td align="center" style="padding=5;width=50%;">
+API-Key   </td>
+    <td align="center" style="padding=5;width=50%;">
+   </td>[`bs.is-a.dev/api/?api-key=****`](https://bs.is-a.dev/api/)
+  </tr>
+    </table>
+
+
