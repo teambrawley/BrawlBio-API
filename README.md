@@ -26,7 +26,7 @@ Welcome To [BrawlBio](https://bs.is-a.dev/) API Docs.
       <td align="center" style="padding=5;width=50%;">
 API-Key   </td>
     <td align="center" style="padding=5;width=50%;">
-     [`bs.is-a.dev/api/?api-key=****`](https://bs.is-a.dev/api/)
+     <a href="https://bs.is-a.dev/api/?api-key=">bs.is-a.dev/api/?api-key=****</a>
    </td>
   </tr>
     </table>
