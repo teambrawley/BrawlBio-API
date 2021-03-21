@@ -46,7 +46,7 @@ tag  </td>
   </tr>
     </table> 
     
-    <table>
+ <table>
   <tr>
       <td align="center" style="padding=5;width=50%;">
 Slug   </td>
