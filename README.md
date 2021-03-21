@@ -7,9 +7,10 @@ Welcome To [BrawlBio](https://bs.is-a.dev/) API Docs.
 
 ### Rate Limits 
 
-Request/Seconds | `20` |
----------------- | ----- |
-
+<table>
+ <tr>Request Per Seconds<tr>
+ <br>20</br>
+ </table>
 ### Authorization
 
 | API-Key | [`bs.is-a.dev/api/?api-key=****`](https://bs.is-a.dev/api/) |
