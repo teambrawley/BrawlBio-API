@@ -191,49 +191,30 @@ API-Key   </td>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
     <script>anchors.add();</script>
     <script>
-function checkCookie() {
-    function getCookie(cname) {
-  var name = cname + "=";
-  var decodedCookie = decodeURIComponent(document.cookie);
-  var ca = decodedCookie.split(';');
-  for(var i = 0; i < ca.length; i++) {
-    var c = ca[i];
-    while (c.charAt(0) == ' ') {
-      c = c.substring(1);
-    }
-    if (c.indexOf(name) == 0) {
-      return c.substring(name.length, c.length);
-    }
-  }
-  return "";
-}
-  var name = localStorage.getItem("auth")
-  if (name != "") {
+  var name = localStorage.getItem("auth");
+  if (name == null || name == undefined) {
+ 
+
+      document.getElementById("auth").innerHTML = `<span class="code">&lt;</span>Login<span class="code">&#47;&gt;</span>`   
+  }else {
+   
+    const token = localStorage.getItem("token")
+      if(token == undefined || token == null){
+
+      document.getElementById("auth").innerHTML = `<span class="code">&lt;</span>Login<span class="code">&#47;&gt;</span>` 
+      }else {
+        axios.get('/api/login/verify/'+token).then(response => {
+          if(response.data.auth == "no"){
+ document.getElementById("auth").innerHTML = `<span class="code">&lt;</span>Login<span class="code">&#47;&gt;</span>`          }else if(response.data.auth == "yes"){
   document.getElementById("auth").innerHTML = `  <span class="code">&lt;</span>
         ${name}<span class="code">&#47;&gt;</span>`
-       
-  }else {
-     document.getElementById("auth").innerHTML = `<span class="code">&lt;</span>Login<span class="code">&#47;&gt;</span>`
+          }else {
+ document.getElementById("auth").innerHTML = `<span class="code">&lt;</span>Login<span class="code">&#47;&gt;</span>`          }
+        })
+      }
 
   }
-}
-           
-           checkCookie();
-            function getCookie(cname) {
-  var name = cname + "=";
-  var decodedCookie = decodeURIComponent(document.cookie);
-  var ca = decodedCookie.split(';');
-  for(var i = 0; i < ca.length; i++) {
-    var c = ca[i];
-    while (c.charAt(0) == ' ') {
-      c = c.substring(1);
-    }
-    if (c.indexOf(name) == 0) {
-      return c.substring(name.length, c.length);
-    }
-  }
-  return "";
-}
+        
        </script>
   </body>
 </html>
